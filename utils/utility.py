@@ -1,25 +1,3 @@
-
-"""
-    General utility functions.
-
-    OKEX 交易所注册推荐码, 手续费返佣20%.
-    https://www.okex.me/join/1847111798
-
-    币安推荐码:  返佣20%
-    https://www.binancezh.com/cn/register?ref=ESE80ESH
-
-    币安合约推荐码: 返佣10%
-    https://www.binancezh.com/cn/futures/ref/51bitquant
-
-    代码获取方式： 网易云课堂，或者联系bitquant51， 回复：网格交易代码
-
-    网格交易: 适合币圈的高波动率的品种，适合现货， 如果交易合约，需要注意防止极端行情爆仓。
-
-
-    服务器购买地址: https://www.ucloud.cn/site/global.html?invitation_code=C1x2EA81CD79B8C#dongjing
-"""
-
-
 import json
 from decimal import Decimal
 from pathlib import Path
