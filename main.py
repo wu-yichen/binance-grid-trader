@@ -11,6 +11,7 @@ logger = logging.getLogger('binance')
 
 if __name__ == '__main__':
     config.loads('./config.json')
+    config.loads('./.credentials.json')
     binance_trader = BinanceTrader()
     orders = binance_trader.http_client.cancel_open_orders(config.symbol)
     print(f"cancel orders: {orders}")

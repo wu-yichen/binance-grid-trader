@@ -7,7 +7,7 @@ __pycache__/
 # C extensions
 *.so
 .DS_ Store
-.vscode
+*.vscode/*
 
 # Distribution / packaging
 .Python
@@ -108,5 +108,5 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-
+.credentials.json
 

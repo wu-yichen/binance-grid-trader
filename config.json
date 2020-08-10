@@ -1,8 +1,6 @@
 {
   "platform": "binance_spot",
   "symbol": "EOSUSDT",
-  "api_key": "api-key",
-  "secret": "secret",
   "gap_percent": 0.005,
   "quantity": 7,
   "min_price": 0.0001,
